@@ -4,9 +4,7 @@ import pl.touk.excel.export.*
 
 class DemoController {
 
-    def index() {}
-
-    def demo1() {
+    def index() {
         List<Product> products = Product.list()
         println(products)
         def headers = ['Name', 'Description', 'Price']
